@@ -10,31 +10,46 @@
 
 #### 目录结构
 
-├── README.md                   // help
-├── __json_server_mock__        // 本地mock服务端
-|   └── db.json                 // mock 数据
-|       
-├── config                      // 配置
-├── scripts                     // CRA配置
-├── public                      
-├── src                         // 资源文件
-│   ├── components              // 自定义组件
-│   ├── hooks                   // 本地封装的hooks
-│   ├── types                   // ts 数据结构
-│   ├── utils                   // 自定义的http、use-async
-│   ├── App.tsx                 // 首页文件
-│   ├── App.less
-|   ├── react-app-env.d.ts
-|   ├── App.test.tsx
-|   ├── index.css
-|   ├── index.tsx
-|   ├── logo.svg
-|   └── reportWebVitals.ts
-|   └── setupTests.ts            
-├── .env                        // 线上api地址
-├── .env.devrlopment            // 本地 json-server api地址
-├── .gitignore
-├── package-lock.json
-├── package.json
-└── tsconfig.js
+├─.env                          // 线上api地址
+├─.env.development              // 本地 json-server api地址
+├─.gitignore
+├─README.md
+├─package-lock.json
+├─package.json
+├─tsconfig.json
+├─src
+|  ├─App.less
+|  ├─App.test.tsx
+|  ├─App.tsx
+|  ├─index.css
+|  ├─index.tsx
+|  ├─logo.svg
+|  ├─react-app-env.d.ts
+|  ├─reportWebVitals.ts
+|  ├─setupTests.ts
+|  ├─utils
+|  |   ├─http.ts              // 自定义的http
+|  |   └use-async.ts          // 自定义的use-async, 增加loading健壮性
+|  ├─types
+|  |   └index.ts              // ts 数据结构
+|  ├─hooks
+|  |   └index.ts              // 本地封装的hooks
+|  ├─components               // 自定义组件
+|  |     ├─code-list.tsx
+|  |     ├─error-tips.tsx
+|  |     └lib.tsx
+├─scripts
+|    ├─build.js
+|    ├─start.js
+|    └test.js
+├─public
+|   ├─favicon.ico
+|   ├─index.html
+|   ├─logo192.png
+|   ├─logo512.png
+|   ├─manifest.json
+|   └robots.txt
+├─config
+├─__json_server_mock__         // 本地mock服务端
+|          └db.json
 
