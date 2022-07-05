@@ -10,7 +10,7 @@
 
 #### 目录结构
 
-├─.env                          // 线上api地址。
+├─.env                          // 线上api地址  
 ├─.env.development              // 本地 json-server api地址  
 ├─.gitignore  
 ├─README.md  
