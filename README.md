@@ -9,7 +9,7 @@
 3. npm start （本地运行）
 
 #### 目录结构
-
+、、、
 ├─.env                          // 线上api地址  
 ├─.env.development              // 本地 json-server api地址  
 ├─.gitignore  
@@ -52,3 +52,4 @@
 ├─config  
 ├─__json_server_mock__         // 本地mock服务端  
 |          └db.json  
+、、、
